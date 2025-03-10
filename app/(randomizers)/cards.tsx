@@ -196,6 +196,8 @@ const styles = StyleSheet.create({
     width: 100,
     height: 150,
     borderRadius: 8,
+    borderWidth: 1, // Added border width
+    borderColor: '#000', // Added border color
   },
   emptyResult: {
     opacity: 0.5,

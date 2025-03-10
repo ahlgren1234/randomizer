@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# Randomize Me
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Randomize Me is a playful and colorful mobile application that allows users to randomize various elements. The app provides a modern and intuitive interface for generating random numbers, letters, dice rolls, yes/no answers, playing cards, coin flips, colors, and rock-paper-scissors outcomes.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Numbers**: Generate one or several random numbers within a specified range.
+- **Letters**: Generate one or several random letters with options for uppercase and lowercase.
+- **Dice**: Roll one or several dice with customizable sides.
+- **Yes/No**: Get a random yes or no answer.
+- **Playing Cards**: Draw one or several random playing cards.
+- **Heads or Tails**: Flip a coin to get heads or tails.
+- **Color**: Generate a random color with its hex and RGB values.
+- **Rock, Paper, Scissors**: Play a game of rock-paper-scissors against the computer.
+
+## Screens
+
+- **Home Screen**: The main page with 8 big buttons leading to different randomizer screens.
+- **Settings Screen**: A screen to view app information and settings.
+- **Splash Screen**: A nice-looking splash screen displayed when the app is launched.
+
+![alt text](images/image-01.png "Title")
+![alt text](images/image-02.png "Title")
+![alt text](images/image-03.png "Title")
+![alt text](images/image-04.png "Title")
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/randomize-me.git
+   cd randomize-me
+   ```
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the development server:
 
    ```bash
-    npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+## Technologies Used
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native**: For building the mobile application.
+- **Expo**: For development and build tools.
+- **TypeScript**: For type-safe JavaScript development.
+- **Expo Router**: For navigation and routing.
+- **Expo Haptics**: For providing haptic feedback.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Contributing
 
-## Get a fresh project
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-When you're ready, run:
+## License
 
-```bash
-npm run reset-project
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Acknowledgements
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Thanks to the open-source community for providing the tools and libraries used in this project.

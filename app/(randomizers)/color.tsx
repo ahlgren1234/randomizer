@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   colorHex: {
-    fontSize: 28,
+    fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 4,
   },

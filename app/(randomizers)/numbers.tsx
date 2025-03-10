@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     borderRadius: 28,
     justifyContent: 'center',
     alignItems: 'center',
-    marginVertical: 16,
+    marginVertical: 65, // Increased margin to add more space
   },
   generateButtonText: {
     color: 'white',

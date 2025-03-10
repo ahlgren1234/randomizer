@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   coinText: {
-    fontSize: 28,
+    fontSize: 26,
     fontWeight: 'bold',
     color: '#000', // Text on coin is always dark for contrast
   },

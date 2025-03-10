@@ -149,14 +149,14 @@ const styles = StyleSheet.create({
   },
   answerContainer: {
     width: 200,
-    height: 80,
+    height: 120, // Increased height to add more vertical space
     borderRadius: 12,
     justifyContent: 'center',
     alignItems: 'center',
   },
   answerText: {
     color: 'white',
-    fontSize: 36,
+    fontSize: 26,
     fontWeight: 'bold',
   },
   waitingText: {
